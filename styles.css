@@ -1,0 +1,75 @@
+body{
+    margin:0;
+}
+
+.navbar{
+    background-color: aquamarine;
+    margin-top: 0;
+    height:9vh;
+    display: flex;
+    align-items: center;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    gap:50px;
+}
+li{
+    list-style: none;
+    
+}
+li:hover{
+    cursor: pointer;
+    color:grey
+}
+
+.resto-name-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:green;
+    height:15vh;
+    font-size: xx-large;
+}
+
+.page-content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:5vh;
+    flex-direction: column;
+    background-color: lightblue;
+    padding:20vh 20vw;
+    margin: 10vh 10vw 10vh 10vw;
+    border-radius: 5%;
+}
+
+
+.page-content p {
+    text-align: justify;
+    font-size:1.2rem;
+}
+
+.div-menu,.div-homepage,.div-team{
+    display:flex;
+    flex-direction: row;
+    background-color:lightcoral;
+    padding:5vh 5vw;
+    gap:5vw;
+    height:auto;
+    width: 40vw;
+    border-radius: 30px;
+}
+.div-menu img,.div-team img{
+    height:auto;
+    max-width: 20vw;
+    object-fit: contain;
+    border:2px solid white;
+}
+
+.div-team div:nth-child(2),.div-menu div:nth-child(2){
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
